@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+
+<body>
+    <center>
+        <a href="..//pages/registration.html">Реєстрація</a>
+        <a href="..//pages/autorithaton.html">Авторизація</a>
+        <a href="#">Пошук</a>
+        
+    </center>
+    <form method="get" action="https://fom.in.ua/echo">
+    <div>
+        <label><b>Тип кузова</b></label> 
+        <p><input type="checkbox" name="Universal">Універсал</p>
+        <p><input type="checkbox" name="Crossover">Кросовер</p>
+        <p><input type="checkbox" name="Sedan">Седан</p>
+        <p><input type="checkbox" name="Hatchback">Хетчбек</p>
+        <p><input type="checkbox" name="Cabriolet">Кабріолет</p>
+        <p><input type="checkbox" name="Minivan">Мінівен</p>
+        <p><input type="checkbox" name="Pickup">Пікап</p>
+    </div>
+    <br>
+    <div>
+        <label><b>Марка авто</b></label> 
+        <select name="auto brand">
+            <option value="Any">Будь-який</option>
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Ford">Ford</option>
+            <option value="Honda">Honda</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Opel">Opel</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Volvo">Volvo</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label><b>Країна виробник</b></label> 
+        <select name="country">
+            <option value="Germany">Німеччина</option>
+            <option value="USA">США</option>
+            <option value="Japan">Японія</option>
+            <option value="Korea">Корея</option>
+            <option value="Spain">Іспанія</option>
+            <option value="Ukraine">Україна</option>
+            <option value="Brazil">Бразилія</option>
+            <option value="France">Франція</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label><b>Вартість</b></label> 
+        <input type="text" placeholder="Від">
+        <input type="text" placeholder="До">
+        <select name="currency">
+            <option value="dollar">$</option>
+            <option value="euro">€</option>
+            <option value="hryvna">грн</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label><b>Рік випуску</b></label> 
+        <input type="text" placeholder="Від">
+        <input type="text" placeholder="До">
+    </div>
+    <br>
+    <div>
+        <label><b>Стан</b></label> 
+        <p><input type="checkbox" name="nocustomed">Нерозмитнені</p>
+        <p><input type="checkbox" name="damaged">Биті</p>
+        <p><input type="checkbox" name="credit">В кредиті</p>
+        <p><input type="checkbox" name="confiscation">Конфіскат</p>
+    </div>
+<br>
+<div>
+    <label><b>Тип палива</b></label> 
+    <p><input type="checkbox" name="petrol">Бензин</p>
+    <p><input type="checkbox" name="diesel">Дизель</p>
+    <p><input type="checkbox" name="gas">Газ</p>
+    <p><input type="checkbox" name="gas/petrol">Газ/Бензин</p>
+    <p><input type="checkbox" name="hibryd">Гібрид</p>
+    <p><input type="checkbox" name="electro">Електро</p>
+    <p><input type="checkbox" name="metan">Газ метан</p>
+    <p><input type="checkbox" name="propan-butan">Газ пропан-бутан</p>
+</div>
+<br>
+<div>
+    <label><b>КПП</b></label> 
+    <p><input type="checkbox" name="manual">Ручна/Механіка</p>
+    <p><input type="checkbox" name="automat">Автомат</p>
+    <p><input type="checkbox" name="tiptronik">Типтронік</p>
+    <p><input type="checkbox" name="robot">Робот</p>
+    <p><input type="checkbox" name="variator">Варіатор</p>
+</div>
+<br>
+<div>
+    <label><b>Колір</b></label>
+    <input type="color" name="color">    
+</div>
+<br>
+<div>
+    <label><b>Додаткові опції</b></label>
+    <p><input type="checkbox" name="Lux">Люк</p>
+    <p><input type="checkbox" name="Leather">Шкіряний салон</p>
+    <p><input type="checkbox" name="Seat heating">Підігрів сидінь</p>
+    <p><input type="checkbox" name="Ventilation">Вентиляція сидінь</p>
+    <p><input type="checkbox" name="Adjustment seats">Регулювання сидінь салону по висоті</p>
+    <p><input type="checkbox" name="Memory seats">Пам'ять положення сидіння</p>
+    <p><input type="checkbox" name="Electrowindowrising">Електросклопідйомники</p>
+</div>
+<br>
+<div>
+    <input type="submit" value="Пошук">  
+  </div>
+</form>  
+</body>
+  
+</html>
